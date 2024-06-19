@@ -134,7 +134,7 @@ import flet as ft
 def main(page: ft.Page):
     page.add(ft.Image(src=f"/images/my-image.png"))
 
-flet.app(
+ft.app(
     target=main,
     assets_dir="assets"
 )
